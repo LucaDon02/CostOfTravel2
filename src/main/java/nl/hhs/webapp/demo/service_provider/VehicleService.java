@@ -1,2 +1,4 @@
-package nl.hhs.webapp.demo.service_provider;public class VehicleService {
+package nl.hhs.webapp.demo.service_provider;
+
+public class VehicleService {
 }

@@ -1,2 +1,4 @@
-package nl.hhs.webapp.demo.view;public class View {
+package nl.hhs.webapp.demo.view;
+
+public class View {
 }
