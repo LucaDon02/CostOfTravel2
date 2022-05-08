@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+
+api:
+  post:
+    vehicle: "/vehicle"
+
+view:
+  index: "/index"
+

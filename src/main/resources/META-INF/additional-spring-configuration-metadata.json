@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "api",
+      "type": "java.lang.String",
+      "description": "application wide endpoint configuration."
+    },
+    {
+      "name": "api.post",
+      "type": "java.lang.String",
+      "description": "HTTP post endpoint."
+    },
+    {
+      "name": "api.post.vehicle",
+      "type": "java.lang.String",
+      "description": "endpoint to post to for Vehicle Class."
+    },
+    {
+      "name": "api.get",
+      "type": "java.lang.String",
+      "description": "Description for api.get."
+    },
+    {
+      "name": "view.index",
+      "type": "java.lang.String",
+      "description": "Description for api.get.index."
+    }
+  ] }

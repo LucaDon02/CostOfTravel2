@@ -1,0 +1,31 @@
+{
+  "hints": [],
+  "groups": [],
+  "properties": [
+    {
+      "name": "api",
+      "description": "application wide endpoint configuration.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "api.get",
+      "description": "Description for api.get.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "api.post",
+      "description": "HTTP post endpoint.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "api.post.vehicle",
+      "description": "endpoint to post to for Vehicle Class.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "view.index",
+      "description": "Description for api.get.index.",
+      "type": "java.lang.String"
+    }
+  ]
+}
