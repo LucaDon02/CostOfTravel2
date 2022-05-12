@@ -6,9 +6,24 @@
       "description": "application wide endpoint configuration."
     },
     {
+      "name": "api.permitted.access",
+      "type": "java.lang.String",
+      "description": "Description for api.permitted.access."
+    },
+    {
+      "name": "api.restricted",
+      "type": "java.lang.String",
+      "description": "Description for api.restricted."
+    },
+    {
       "name": "api.post",
       "type": "java.lang.String",
       "description": "HTTP post endpoint."
+    },
+    {
+      "name": "api.post.registrationRequest",
+      "type": "java.lang.String",
+      "description": "endpoint for user registration."
     },
     {
       "name": "api.post.vehicle",
@@ -23,6 +38,6 @@
     {
       "name": "view.index",
       "type": "java.lang.String",
-      "description": "Description for api.get.index."
+      "description": "endpoint for application index page."
     }
   ] }

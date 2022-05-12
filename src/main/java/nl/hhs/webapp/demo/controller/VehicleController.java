@@ -1,7 +1,7 @@
 package nl.hhs.webapp.demo.controller;
 
 import nl.hhs.webapp.demo.model.vehicle.Vehicle;
-import nl.hhs.webapp.demo.service_provider.dao.VehicleService;
+import nl.hhs.webapp.demo.service.dao.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

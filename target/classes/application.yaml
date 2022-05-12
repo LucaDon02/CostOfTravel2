@@ -1,13 +1,24 @@
 spring:
   profiles:
     active: dev
-  freemarker:
-    template-loader-path: classpath:/templates
-    suffix: .ftl
 
 api:
+  permitted:
+    access: ${view.index}, ${api.post.registration-request}
+  restricted:
+    - allow-role:
+      name:
+      access:
+    - allow-role:
+      name:
+      access:
+
+#      permitted: >
+#       ${view.index}
+#       ${api.post.registration-request}
   post:
     vehicle: "/vehicle"
+    registration-request: "/registration"
 
 view:
   index: "/index"

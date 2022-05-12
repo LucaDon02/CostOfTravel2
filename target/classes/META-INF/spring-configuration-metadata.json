@@ -13,8 +13,18 @@
       "type": "java.lang.String"
     },
     {
+      "name": "api.permitted.access",
+      "description": "Description for api.permitted.access.",
+      "type": "java.lang.String"
+    },
+    {
       "name": "api.post",
       "description": "HTTP post endpoint.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "api.post.registrationRequest",
+      "description": "endpoint for user registration.",
       "type": "java.lang.String"
     },
     {
@@ -23,8 +33,13 @@
       "type": "java.lang.String"
     },
     {
+      "name": "api.restricted",
+      "description": "Description for api.restricted.",
+      "type": "java.lang.String"
+    },
+    {
       "name": "view.index",
-      "description": "Description for api.get.index.",
+      "description": "endpoint for application index page.",
       "type": "java.lang.String"
     }
   ]
